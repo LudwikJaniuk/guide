@@ -5,7 +5,7 @@
 
 * [Official build instructions](https://openjdk.org/groups/build/doc/building.html)
 * [openjdk/jdk GitHub project](https://github.com/openjdk/jdk)
-* [JDK 16 General-Availability Release](https://jdk.java.net/16/)
+* [Download latest JDK general-availability releases](https://jdk.java.net)
 :::
 
 The JDK build system is a fairly complex machine that has the ability to build anything from a single module to a complete shippable JDK bundle with various levels of debug capabilities, run tests, install your newly built JDK on your system, or cross-compile for some other system. The build uses `make` and a few other tools that you will have to install on your system before starting.
