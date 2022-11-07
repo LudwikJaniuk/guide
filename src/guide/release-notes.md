@@ -51,16 +51,13 @@ The following are general practices that should be followed when creating releas
 * Don't repeat information that will be included in updates to the docs, keep it to a high level summary or key changes.
 * Note that where the changes are more fully documented in the JDK documentation, then refer to that document for details. When covering a change in behavior provide some idea to what can be done if a developer or user encounters problems from the change.
 * Don't include graphics etc. Refer to the main docs if there are more details that need explaining.
-* Don't include your name or affiliation, make sure however, you are the assignee of the release note sub-task.
+* Do not include personally identifiable information in your release note. This includes such things as your name, your company, and non-standard directory structures.
 * If you have a < in the [Summary]{.jbs-field} then use `&lt;`. For <'s in the [Description]{.jbs-field} surround them by back-ticks.
 
 * Avoid using Latin and abbreviations in the release note.
   * Use "also known as" instead of "aka"
   * Use "that is" or "to be specific" instead of "i.e."
   * Use "for example" instead of "e.g."
-
-* The [Summary]{.jbs-field} should be in title case instead of sentence case.
-  * Example: Decode Error with Tomcat Version 7.x
 
 * The [Description]{.jbs-field} should be standardized to follow this pattern:
   * Sentence stating the change that was made
