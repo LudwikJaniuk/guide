@@ -25,6 +25,7 @@ The release note itself is written in a [JBS](#jbs---jdk-bug-system) sub-task of
 
 #. For the newly created sub-task, follow these steps:
    * The [Summary]{.jbs-field} should be a one sentence synopsis that is informative (and concise) enough to attract the attention of users, developers, and maintainers who might be impacted by the change. It should succinctly describe what has actually changed, not be the original bug title, nor describe the problem that was being solved. It should read well as a sub-section heading in a document.
+   * The [Summary]{.jbs-field} should be written in title case. This means that all words are capitalized except for articles and prepositions. For example, “Decode Error with Tomcat Version 7.x”. There are many tools available to cast sentences into title case, such as [titlecaseconverter.com](https://titlecaseconverter.com/). When given the choice, choose Chicago Manual of Style rules.
    * Prefix the [Summary]{.jbs-field} with "Release Note:".
    * Add the [release-note]{.jbs-label} label. This is required for the release note to be included in the release notes.
    * Add the proper [RN-]{.jbs-label}label if applicable to indicate what section of the release notes it should be included in (see [RN-labels](#rn-labels) below).
